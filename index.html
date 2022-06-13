@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+<div class="wrapper">
+
+<!-- Header -->
+    <header>
+        <div class="header__logo__container">
+            <img src="images/logo.png" alt="" class="header__logo__img">
+            <div class="header__logo__text">Aster News</div>
+        </div>
+        <div class="header__main-width__container">
+            <div class="header__input__container">
+                <input class="header__input" type="search" name="search" id="search" placeholder="Search for news..">
+                <img src="images/search.svg" alt="">
+            </div>
+
+            <button class="header__latest-news__button">
+                <div class="header__latest-news__text">Latest news on <span>Covid-19</span></div>
+                <img src="images/arrow-right.svg" alt="" class="header__latest-news__img">
+            </button>
+        </div>
+        <div class="header__my-profile__container">
+                <img class="header__my-profile__icon--person" src="images/person.svg" alt="">
+                <div class="header__my-profile__text">My Profile</div>
+                <img class="header__my-profile__icon--down-arrow" src="images/arrow-down.svg" alt="">
+        </div>
+    </header>
+
+    <section class="center">
+
+        <!-- Navigation -->
+        <nav>
+            <ul>
+                <li>
+                    <div class="nav__item__active__circle nav__item__active__circle--active"></div>
+                    <img class="nav__item__icon" src="images/home.svg" alt="">
+                    <div class="nav__item__name nav__item__name--active">Top Stories</div>
+                </li>
+                <li>
+                    <div class="nav__item__active__circle"></div>
+                    <img class="nav__item__icon" src="images/globe.svg" alt="">
+                    <div class="nav__item__name">Around the World</div>
+                </li>
+                <li>
+                    <div class="nav__item__active__circle"></div>
+                    <img class="nav__item__icon" src="images/briefcase.svg" alt="">
+                    <div class="nav__item__name">Business</div>
+                </li>
+                <li>
+                    <div class="nav__item__active__circle"></div>
+                    <img class="nav__item__icon" src="images/activity.svg" alt="">
+                    <div class="nav__item__name">Health</div>
+                </li>
+                <li class="nav__li__line">
+                    <div class="nav__line"></div>
+                </li>
+                <li>
+                    <div class="nav__item__active__circle"></div>
+                    <img class="nav__item__icon" src="images/shield.svg" alt="">
+                    <div class="nav__item__name">Covid 19</div>
+                </li>
+                <li class="nav__li__line">
+                    <div class="nav__line"></div>
+                </li>
+                <li>
+                    <div class="nav__item__active__circle"></div>
+                    <img class="nav__item__icon" src="images/play-circle.svg" alt="">
+                    <div class="nav__item__name">Entertainment</div>
+                </li>
+                <li>
+                    <div class="nav__item__active__circle"></div>
+                    <img class="nav__item__icon" src="images/award.svg" alt="">
+                    <div class="nav__item__name">Sports</div>
+                </li>
+                <li>
+                    <div class="nav__item__active__circle"></div>
+                    <img class="nav__item__icon" src="images/message-circle.svg" alt="">
+                    <div class="nav__item__name">Discussion</div>
+                </li>
+                <li>
+                    <div class="nav__item__active__circle"></div>
+                    <img class="nav__item__icon" src="images/bell.svg" alt="">
+                    <div class="nav__item__name">Notification</div>
+                </li>
+                <li>
+                    <div class="nav__item__active__circle"></div>
+                    <img class="nav__item__icon" src="images/settings.svg" alt="">
+                    <div class="nav__item__name">News Feed Settings</div>
+                </li>
+            </ul>
+            <div class="subscribe-card">
+                <div class="subscribe-card__title__container">
+                    <img src="images/gift.svg" alt="" class="subscribe-card__title__icon">
+                    <div class="subscribe-card__title__text">Subscribe to Premium</div>
+                </div>
+                <div class="subscribe-card__price__container">
+                    <div class="subscribe-card__price"><span>$8</span>/m</div>
+                    <button class="subscribe-card__price__button">Upgrade</button>
+                </div>
+            </div>
+        </nav>
+        
+        <!-- Main Posts -->
+        <main>
+            <div class="main__title">Top Stories for you</div>
+            
+            <div class="main__upper__button__container">
+                <button class="main__upper__button main__upper__button--active">All</button>
+                <button class="main__upper__button">Android</button>
+                <button class="main__upper__button">Cricket</button>
+                <button class="main__upper__button">iPhone</button>
+                <button class="main__upper__button">Google</button>
+                <button class="main__upper__button">Nano Technology</button>
+                <button class="main__upper__button">Mental Health</button>
+                <button class="main__upper__button main__upper__button--more">...</button>
+            </div>
+            
+            <div class="main__new__stories__container">
+     
+                <div class="main__story__container main__story__container--wide">
+                    <div class="main__story__left">
+                        <div class="main__story__title">Samsung Galaxy F22 launched in India: Price, features, other details</div>
+                        <div class="main__story__subtitle">Samsung Galaxy F22 has been launched in India. The new smartphone has been priced in the mid-range segment. The new smartphone is powered by a MediaTek chipset and features a high refresh rate AMOLED display.</div>
+                        <div class="main__story__bottom__container">
+                            <div class="main__story__info-container">
+                                <div class="main__story__info__text">The Mint</div>
+                                <div class="main__story__info__dot"></div>
+                                <div class="main__story__info__text">15 min ago</div>
+                            </div>
+                            <div class="main__story__links__container main__story__links__container--wide">
+                                <div class="main__story__link__container">
+                                    <img src="images/share.svg" alt="" class="main__story__link__img">
+                                    <div class="main__story__link__text">Share</div>
+                                </div>
+                                <div class="main__story__link__container">
+                                    <img src="images/pocket.svg" alt="" class="main__story__link__img">
+                                    <div class="main__story__link__text">Read Later</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__story__right">
+                        <img src="images/Story_phone.png" alt="" class="main__story__img">
+                    </div>
+                </div>
+
+                <div class="main__story__short-containers__container">
+                    <div class="main__story__container main__story__container--short">
+                        <div class="main__story__left-right__container">
+                            <div class="main__story__left">
+                                <div class="main__story__title">Battlegrounds Mobile India iOS release date</div>
+                                <div class="main__story__subtitle">The reason behind their disappointment is that iPhone users have been..</div>
+                            </div>
+                            <div class="main__story__right">
+                                <img src="images/Story_battle.png" alt="" class="main__story__img">
+                            </div>
+                        </div>
+                        <div class="main__story__bottom__container">
+                            <div class="main__story__info-container">
+                                <div class="main__story__info__text">Sport Biz</div>
+                                <div class="main__story__info__dot"></div>
+                                <div class="main__story__info__text">42 min ago</div>
+                            </div>
+                            <div class="main__story__links__container">
+                                <div class="main__story__link__container">
+                                    <img src="images/share.svg" alt="" class="main__story__link__img">
+                                    <div class="main__story__link__text">Share</div>
+                                </div>
+                                <div class="main__story__link__container">
+                                    <img src="images/pocket.svg" alt="" class="main__story__link__img">
+                                    <div class="main__story__link__text">Read Later</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__story__container main__story__container--short">
+                        <div class="main__story__left-right__container">
+                            <div class="main__story__left">
+                                <div class="main__story__title">Instagram working on ‘Exclusive Stories’ for subscribers</div>
+                                <div class="main__story__subtitle">Instagram could be jumping on the paid subscription..</div>
+                            </div>
+                            <div class="main__story__right">
+                                <img src="images/Story_instagram.png" alt="" class="main__story__img">
+                            </div>
+                        </div>
+                        <div class="main__story__bottom__container">
+                            <div class="main__story__info-container">
+                                <div class="main__story__info__text">The Mint</div>
+                                <div class="main__story__info__dot"></div>
+                                <div class="main__story__info__text">52 min ago</div>
+                            </div>
+                            <div class="main__story__links__container">
+                                <div class="main__story__link__container">
+                                    <img src="images/share.svg" alt="" class="main__story__link__img">
+                                    <div class="main__story__link__text">Share</div>
+                                </div>
+                                <div class="main__story__link__container">
+                                    <img src="images/pocket.svg" alt="" class="main__story__link__img">
+                                    <div class="main__story__link__text">Read Later</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main__story__short-containers__container">
+                    <div class="main__story__container main__story__container--short">
+                        <div class="main__story__left-right__container">
+                            <div class="main__story__left">
+                                <div class="main__story__title">Petrol, diesel prices -  July 6: Fuel prices unchanged after touching record high</div>
+                                <div class="main__story__subtitle">The price of petrol remained unchanged on July 6 after reaching a new record high on the previous day, according to a price notification by state-owned..</div>
+                            </div>
+                            <div class="main__story__right">
+                            </div>
+                        </div>
+                        <div class="main__story__bottom__container">
+                            <div class="main__story__info-container">
+                                <div class="main__story__info__text">Radar 52</div>
+                                <div class="main__story__info__dot"></div>
+                                <div class="main__story__info__text">1 hour ago</div>
+                            </div>
+                            <div class="main__story__links__container">
+                                <div class="main__story__link__container">
+                                    <img src="images/share.svg" alt="" class="main__story__link__img">
+                                    <div class="main__story__link__text">Share</div>
+                                </div>
+                                <div class="main__story__link__container">
+                                    <img src="images/pocket.svg" alt="" class="main__story__link__img">
+                                    <div class="main__story__link__text">Read Later</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__story__container main__story__container--short">
+                        <div class="main__story__left-right__container">
+                            <div class="main__story__left">
+                                <div class="main__story__title">Android smartphone users alert! Remove these 9 apps now</div>
+                                <div class="main__story__subtitle">Stealer trojans were spread as harmless software..</div>
+                            </div>
+                            <div class="main__story__right">
+                                <img src="images/Story_computer.png" alt="" class="main__story__img">
+                            </div>
+                        </div>
+                        <div class="main__story__bottom__container">
+                            <div class="main__story__info-container">
+                                <div class="main__story__info__text">Live Mint</div>
+                                <div class="main__story__info__dot"></div>
+                                <div class="main__story__info__text">2 hours ago</div>
+                            </div>
+                            <div class="main__story__links__container">
+                                <div class="main__story__link__container">
+                                    <img src="images/share.svg" alt="" class="main__story__link__img">
+                                    <div class="main__story__link__text">Share</div>
+                                </div>
+                                <div class="main__story__link__container">
+                                    <img src="images/pocket.svg" alt="" class="main__story__link__img">
+                                    <div class="main__story__link__text">Read Later</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main__story__short-containers__container">
+                    <div class="main__story__container main__story__container--short">
+                        <div class="main__story__left-right__container">
+                            <div class="main__story__left">
+                                <div class="main__story__title">How to install Windows 11 on almost any unsupported PC</div>
+                                <div class="main__story__subtitle">Microsoft is allowing some unsupported computers..</div>
+                            </div>
+                            <div class="main__story__right">
+                                <img src="images/Story_windows.png" alt="" class="main__story__img">
+                            </div>
+                        </div>
+                        <div class="main__story__bottom__container">
+                            <div class="main__story__info-container">
+                                <div class="main__story__info__text">Tech Mint</div>
+                                <div class="main__story__info__dot"></div>
+                                <div class="main__story__info__text">3 hours ago</div>
+                            </div>
+                            <div class="main__story__links__container">
+                                <div class="main__story__link__container">
+                                    <img src="images/share.svg" alt="" class="main__story__link__img">
+                                    <div class="main__story__link__text">Share</div>
+                                </div>
+                                <div class="main__story__link__container">
+                                    <img src="images/pocket.svg" alt="" class="main__story__link__img">
+                                    <div class="main__story__link__text">Read Later</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__story__container main__story__container--short">
+                        <div class="main__story__left-right__container">
+                            <div class="main__story__left">
+                                <div class="main__story__title">This charging feature from Android phones may come to iPhone 13</div>
+                                <div class="main__story__subtitle">You will always find a set of people who will say that..</div>
+                            </div>
+                            <div class="main__story__right">
+                                <img src="images/Story_android.png" alt="" class="main__story__img">
+                            </div>
+                        </div>
+                        <div class="main__story__bottom__container">
+                            <div class="main__story__info-container">
+                                <div class="main__story__info__text">Live Mint</div>
+                                <div class="main__story__info__dot"></div>
+                                <div class="main__story__info__text">5 hours ago</div>
+                            </div>
+                            <div class="main__story__links__container">
+                                <div class="main__story__link__container">
+                                    <img src="images/share.svg" alt="" class="main__story__link__img">
+                                    <div class="main__story__link__text">Share</div>
+                                </div>
+                                <div class="main__story__link__container">
+                                    <img src="images/pocket.svg" alt="" class="main__story__link__img">
+                                    <div class="main__story__link__text">Read Later</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+     
+            <div class="main__creators__container">
+                <div class="main__creators__navigation__container">
+                    <div class="main__creators__title__container">
+                        <img class="main__creator__icon" src="images/feather.svg" alt="">
+                        <div class="main__creator__text">Creators you should follow</div>
+                    </div>
+                    <div class="main__creators__navigation__container">
+                        <img src="images/arrow-left2.svg" alt="">
+                        <img src="images/arrow-right2.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="main__creators__cards__container">
+                    <div class="main__creators__card">
+                        <img src="images/Creator_Shan.png" alt="" class="main__creator__card__img">
+                        <div class="main__creator__card__title">Shan Teylor</div>
+                        <div class="main__creator__card__subtitle">Tech Mint</div>
+                        <button class="main__creator__card__button">Follow</button>
+                    </div>
+                
+                    <div class="main__creators__card">
+                        <img src="images/Creator_Mary.png" alt="" class="main__creator__card__img">
+                        <div class="main__creator__card__title">Mary Angela</div>
+                        <div class="main__creator__card__subtitle">Live Mint</div>
+                        <button class="main__creator__card__button">Follow</button>
+                    </div>
+                
+                    <div class="main__creators__card">
+                        <img src="images/Creator_Kyon.png" alt="" class="main__creator__card__img">
+                        <div class="main__creator__card__title">Kyon Cho Chi</div>
+                        <div class="main__creator__card__subtitle">Bizz Daily</div>
+                        <button class="main__creator__card__button">Follow</button>
+                    </div>
+                
+                    <div class="main__creators__card">
+                        <img src="images/Creator_Paul.png" alt="" class="main__creator__card__img">
+                        <div class="main__creator__card__title">Paul Livingstone</div>
+                        <div class="main__creator__card__subtitle">Sport Biz</div>
+                        <button class="main__creator__card__button">Follow</button>
+                    </div>
+                
+                    <div class="main__creators__card">
+                        <img src="images/Creator_Sara.png" alt="" class="main__creator__card__img">
+                        <div class="main__creator__card__title">Sara Jay</div>
+                        <div class="main__creator__card__subtitle">Radar 52</div>
+                        <button class="main__creator__card__button">Follow</button>
+                    </div>
+                
+                </div>
+            </div>
+            
+            <div class="main__old__stories__container">
+                <div class="main__story__short-containers__container">
+                    <div class="main__story__container main__story__container--short">
+                        <div class="main__story__left-right__container">
+                            <div class="main__story__left">
+                                <div class="main__story__title">INDvENG Tests to be played in front of crowd</div>
+                                <div class="main__story__subtitle">The 5-Test series between India & England is set to be played in front of packed..</div>
+                            </div>
+                            <div class="main__story__right">
+                                <img src="images/Story_ind.png" alt="" class="main__story__img">
+                            </div>
+                        </div>
+                        <div class="main__story__bottom__container">
+                            <div class="main__story__info-container">
+                                <div class="main__story__info__text">Sport Biz</div>
+                                <div class="main__story__info__dot"></div>
+                                <div class="main__story__info__text">7 hours ago</div>
+                            </div>
+                            <div class="main__story__links__container">
+                                <div class="main__story__link__container">
+                                    <img src="images/share.svg" alt="" class="main__story__link__img">
+                                    <div class="main__story__link__text">Share</div>
+                                </div>
+                                <div class="main__story__link__container">
+                                    <img src="images/pocket.svg" alt="" class="main__story__link__img">
+                                    <div class="main__story__link__text">Read Later</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__story__container main__story__container--short">
+                        <div class="main__story__left-right__container">
+                            <div class="main__story__left">
+                                <div class="main__story__title">The 10 Coolest Wearable Tech Gadgets Of 2021 (So Far)</div>
+                                <div class="main__story__subtitle">Driven by demand for connected earbuds and a..</div>
+                            </div>
+                            <div class="main__story__right">
+                                <img src="images/Story_coll.png" alt="" class="main__story__img">
+                            </div>
+                        </div>
+                        <div class="main__story__bottom__container">
+                            <div class="main__story__info-container">
+                                <div class="main__story__info__text">The Mint</div>
+                                <div class="main__story__info__dot"></div>
+                                <div class="main__story__info__text">7 hours ago</div>
+                            </div>
+                            <div class="main__story__links__container">
+                                <div class="main__story__link__container">
+                                    <img src="images/share.svg" alt="" class="main__story__link__img">
+                                    <div class="main__story__link__text">Share</div>
+                                </div>
+                                <div class="main__story__link__container">
+                                    <img src="images/pocket.svg" alt="" class="main__story__link__img">
+                                    <div class="main__story__link__text">Read Later</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main__story__short-containers__container">
+                    <div class="main__story__container main__story__container--short">
+                        <div class="main__story__left-right__container">
+                            <div class="main__story__left">
+                                <div class="main__story__title">Biden's cold response to Afghanistan's collapse to have far consequences</div>
+                                <div class="main__story__subtitle">When US President Joe Biden chose in April to withdraw all American forces from Afghanistan by September, we were among those who judged..</div>
+                            </div>
+                            <div class="main__story__right">
+                            </div>
+                        </div>
+                        <div class="main__story__bottom__container">
+                            <div class="main__story__info-container">
+                                <div class="main__story__info__text">Radar 52</div>
+                                <div class="main__story__info__dot"></div>
+                                <div class="main__story__info__text">8 hour ago</div>
+                            </div>
+                            <div class="main__story__links__container">
+                                <div class="main__story__link__container">
+                                    <img src="images/share.svg" alt="" class="main__story__link__img">
+                                    <div class="main__story__link__text">Share</div>
+                                </div>
+                                <div class="main__story__link__container">
+                                    <img src="images/pocket.svg" alt="" class="main__story__link__img">
+                                    <div class="main__story__link__text">Read Later</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__story__container main__story__container--short">
+                        <div class="main__story__left-right__container">
+                            <div class="main__story__left">
+                                <div class="main__story__title">Hardik Pandya 'is bowling and it is a very good sign' - Suryakumar</div>
+                                <div class="main__story__subtitle">I think that the team management and Hardik..</div>
+                            </div>
+                            <div class="main__story__right">
+                                <img src="images/Story_sport.png" alt="" class="main__story__img">
+                            </div>
+                        </div>
+                        <div class="main__story__bottom__container">
+                            <div class="main__story__info-container">
+                                <div class="main__story__info__text">Cric Mint</div>
+                                <div class="main__story__info__dot"></div>
+                                <div class="main__story__info__text">9 hours ago</div>
+                            </div>
+                            <div class="main__story__links__container">
+                                <div class="main__story__link__container">
+                                    <img src="images/share.svg" alt="" class="main__story__link__img">
+                                    <div class="main__story__link__text">Share</div>
+                                </div>
+                                <div class="main__story__link__container">
+                                    <img src="images/pocket.svg" alt="" class="main__story__link__img">
+                                    <div class="main__story__link__text">Read Later</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <div class="main__show-more__button__container">
+                <button class="main__show-more__button">Show More</button>
+            </div>
+        </main>
+        
+        <!-- Right -->
+        <aside>
+            <div class="aside__card">
+                <div class="aside__card__temperature__container">
+                    <div class="aside__card--title">Coimbatore, Tamil Nadu</div>
+                    <img src="images/crosshair.svg" alt="" class="aside__card__location__icon">
+                </div>
+                <div class="aside__card__line"></div>
+                <div class="aside__card__temp-info__container">
+                    <div class="aside__card__temp-info__values">
+                        <div class="aside__card__temp-info__values__text">Sunny</div>
+                        <div class="aside__card__temp-info__values__value">31&deg; c</div>
+                    </div>
+                    <img src="images/sun.svg" alt="" class="aside__card__temp-info__image">
+                </div>
+                <div class="aside__card__temp-conversion__container">
+                    <div class="aside__card__temp-conversion--primary">Celsius</div>
+                    <div class="aside__card__temp-conversion--secondary">Fahrenheit</div>
+                </div>
+            </div>
+            <div class="aside__card">
+                <div class="aside__card__story-writer__container">
+                    <img src="images/feather.svg" alt="" class="aside__card__location__icon">
+                    <div class="aside__card--title">Become a Story Writer</div>
+                </div>
+                <div class="aside__card__story-writer__know-more__container">
+                    <div class="aside__card__story-writer__know-more__text">Contribute stories and start earning.</div>
+                    <button class="aside__card__story-writer__know-more__button">Know More</button>
+                </div>
+            </div>
+            <div class="aside__card">
+                <div class="aside__card__quick-bytes__container">
+                    <div class="aside__card__quick-bytes__container__left-side">
+                        <img src="images/file-text.svg" alt="" class="aside__card__location__icon">
+                        <div class="aside__card--title">Quick Bytes</div>
+                    </div>
+                    <div class="aside__card__quick-bytes__container__right-side">
+                        <div class="aside__card__quick-bytes__button aside__card__quick-bytes__button--secondary">
+                            <img src="images/small_arrow_left.svg" alt="">
+                        </div>
+                        <div class="aside__card__quick-bytes__button aside__card__quick-bytes__button--primary">
+                            <img src="images/small_arrow_right.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="aside__card__line"></div>
+                <div class="aside__card__quick-bytes__text">The price of petrol remained unchanged on July 6 after reaching a new record high on the previous day, according to a price notification by state-owned fuel retailers. The diesel price remained stable for the second consecutive day. <br><br>The increase on July 5, 35th in two months, took the petrol price in Delhi closer to Rs 100 per litre-mark. The petrol price in the national capital soared to Rs 99.9 a litre and diesel was priced at Rs 89.4 per litre, according to Bharat Petroleum's price listing.
+                </div>
+                <div class="aside__card__quick-bytes__bottom-position-dots">
+                    <div class="aside__card__quick-bytes__bottom-position-dot aside__card__quick-bytes__bottom-position-dot--active"></div>
+                    <div class="aside__card__quick-bytes__bottom-position-dot"></div>
+                    <div class="aside__card__quick-bytes__bottom-position-dot"></div>
+                    <div class="aside__card__quick-bytes__bottom-position-dot"></div>
+                    <div class="aside__card__quick-bytes__bottom-position-dot"></div>
+                    <div class="aside__card__quick-bytes__bottom-position-dot"></div>
+                </div>
+            </div>
+            <div class="aside__card">
+                <div class="aside__card--title">Subscribe to our newsletter</div>
+                <form class="aside__card__subscribe__form__container">
+                    <input class="aside__card__subscribe__bottom__input" type="email" name="email" id="email" placeholder="Enter Email">
+                    <button class="aside__card__subscribe__button">Subscribe</button>
+                </form>
+            </div>
+        </aside>
+    </section>
+
+<!-- Footer -->
+<footer>
+        <div class="footer__left"></div>
+        <div class="footer__centering__container">
+            <div class="footer__line"></div>
+                <div class="footer__container">
+                    <div class="footer__copyright">&copy; Aster News, 2022</div>
+                    <div class="footer__links">
+                        <a class="footer__link" href="">Privacy Policy</a>
+                        <a class="footer__link" href="">Terms of service</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__right"></div>
+    </footer>
+
+</div>
+
+</body>
+</html>
